@@ -14,23 +14,27 @@
   </head>
   <body>
     <form action="/script.js">
-      <label for="in1">Input 1:</label>
-      <input
-        type="text"
-        id="in1"
-        class="form-floating"
-        name="in1"
-        placeholder="John"
-        autofocus
-      />
-      <label for="in2">Input 2:</label>
-      <input
-        type="text"
-        id="in2"
-        class="form-floating"
-        name="in2"
-        placeholder="Doe"
-      />
+      <div class="form-floating">
+        <input
+          type="text"
+          id="in1"
+          class="form-control"
+          name="in1"
+          placeholder="John"
+          autofocus
+        />
+        <label for="in1">Input 1</label>
+      </div>
+      <div class="form-floating">
+        <input
+          type="text"
+          id="in2"
+          class="form-control"
+          name="in2"
+          placeholder="Doe"
+        />
+        <label for="in2">Input 2</label>
+      </div>
       <input
         type="button"
         class="btn btn-secondary"
