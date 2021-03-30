@@ -58,8 +58,8 @@
   ================*/
 @media (prefers-color-scheme: dark) {
   body {
-    color: #eee;
-    background: #121212;
+    color: var(--grey0);
+    background: var(--grey5);
   }
 
   body a {
@@ -90,7 +90,7 @@ p {
   line-height: 1.5;
   word-break: break-word;
   text-align: justify; /* Justifies text */
-  hyphens: auto; /* Hypenation on auto */
+  /* hyphens: auto; Hypenation on auto */
   max-width: 60ch; /* max width of a paragraph should be around 60 characters */
 }
 
