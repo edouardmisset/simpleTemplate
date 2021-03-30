@@ -1,5 +1,20 @@
 {
-  "dependencies": {
-    "minireset.css": "^0.0.6"
-  }
+  "name": "simpleTemplate",
+  "version": "1.0.0",
+  "description": "A simple HTML CSS JS template",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edouardmisset/simpleTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edouardmisset/simpleTemplate/issues"
+  },
+  "homepage": "https://github.com/edouardmisset/simpleTemplate#readme"
 }
